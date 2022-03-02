@@ -24,7 +24,7 @@ To check result, as you know just write **make**
 
 ### Solution
 if n is equal to 4 we need to print array as shown below
-  |10 | 11 | 12 | 13
-  | 9  | 2  | 3 | 14
-  | 8  | 1  | 4 | 15
-  | 7  | 6  | 5 | 16
+  |10  | 11 | 12| 13 |
+  | 9  | 2  | 3 | 14 |
+  | 8  | 1  | 4 | 15 |
+  | 7  | 6  | 5 | 16 |
