@@ -18,3 +18,13 @@ To solve this problem, firstly we need to create 3d dimensional array. For that 
 
 To check result, as you know just write **make**
 
+# Task 
+### Задание 2.
+Матрица размера N x N (где N - случайное число в диапазоне от 3 до 10) должна быть заполнена числами от 1 до N x N по спирали от внешнего "кольца" к центру (реализовано с помощью класса matrix). Порядок обхода спирали (по часовой или против) определяется случайным образом при каждом запуске программы (как и число N).
+
+### Solution
+if n is equal to 4 we need to print array as shown below
+  |10 | 11 | 12 | 13
+  | 9  | 2  | 3 | 14
+  | 8  | 1  | 4 | 15
+  | 7  | 6  | 5 | 16
