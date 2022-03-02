@@ -1,4 +1,4 @@
-# solution
+# Solution
 Solution for given tasks :)
 
 # Task1
@@ -31,3 +31,10 @@ if n is equal to 4 we need to print array as shown below
   | 9  | 2  | 3 | 14 |
   | 8  | 1  | 4 | 15 |
   | 7  | 6  | 5 | 16 |
+
+To solve this task we need to do several steps:
+- create empty array with size n * n
+- find max value in array
+- fill array as shown above
+[Soltuion code](https://github.com/nurbolatkz/solution/blob/main/solution_task2/printerarray.cpp)
+As you can see, I started filling with col4 from imax to imin. In the next step, filled row1 from jmax to jmin. After that filled col1 from imin to imax, and so put values to last row. After each iteration decreased jmax, imax and increased imin, jmin to reach center of matrix.
