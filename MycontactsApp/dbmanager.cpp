@@ -53,9 +53,9 @@ void DbManager::getAllRows(){
 
 }
 
-bool DbManager::deleteInfo(QString name, QString phone_number){
+bool DbManager::deleteInfo(QString phone_number){
     QSqlQuery query;
-    query.prepare(QString("DELETE FROM maincontacts WHERE name = '%1' and phone_number = '%2'").arg(name).arg(phone_number));
+    query.prepare(QString("DELETE FROM maincontacts WHERE  phone_number = '%2'").arg(phone_number));
 
     if(!query.exec()){
          qDebug() << deleteInfo_error_msg;

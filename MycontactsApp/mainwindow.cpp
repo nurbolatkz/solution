@@ -38,9 +38,8 @@ void MainWindow::on_read_all_btn_clicked()
 void MainWindow::on_delete_btn_clicked()
 {
 
-    QString name = ui->lineEditName->text();
     QString phone_number = ui->lineEditNumber->text();
 
-    dbManager.deleteInfo(name, phone_number);
+    dbManager.deleteInfo(phone_number);
 }
 

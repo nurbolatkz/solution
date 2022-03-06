@@ -1,7 +1,7 @@
 #ifndef DBMANAGER_H
 #define DBMANAGER_H
 
-#define DB_PATH "C:/Users/nurbo/Downloads/solution/contacts.db"
+#define DB_PATH "C:/Users/nurbo/Downloads/solution/MycontactsApp/contacts.db"
 // QString db_path ="C:/Users/nurbo/Downloads/solution/contacts.db";
 
 #include <QtSql>
@@ -19,7 +19,7 @@ class DbManager
         DbManager(QString path);
         bool addNewInfo(QString name,QString surname, QString phone_number );
         void getAllRows();
-        bool deleteInfo(QString name, QString phone_number); // will be fine delete with unique data like id
+        bool deleteInfo(QString phone_number); // will be fine delete with unique data like id
     private:
         QSqlDatabase db;
 };
