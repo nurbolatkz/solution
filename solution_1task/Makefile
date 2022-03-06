@@ -13,7 +13,5 @@ arraycreator.o: arraycreator.cpp
 
 searchKvalue.o: searchKvalue.cpp
 	g++ -c searchKvalue.cpp
-
-
 clean:
 	rm -rf *.o out

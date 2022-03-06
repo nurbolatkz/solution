@@ -4,6 +4,11 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
+
+#define size_x 3
+#define size_y 3
+#define k_val 3
+
 using namespace std;
 
 vector<vector <int>> searchKvalue(int*** matrx, int l, int m , int n, int z);
